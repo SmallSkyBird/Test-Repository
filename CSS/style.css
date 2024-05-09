@@ -1,0 +1,137 @@
+@charset "utf-8";
+/* CSS Document */ @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+body {
+  font-family: "roboto", sans-serif;
+  font-size: 16px;
+  color: #666666;
+  margin: 0
+}
+header {
+  width: 100%;
+  height: 60px;
+  background: #FDABAC;
+  border-bottom: 2px solid #E3494C
+}
+.menu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex
+}
+.menu {
+  padding-top: 16px
+}
+.menu ul li a {
+  padding: 10px 25px;
+  text-decoration: none;
+  color: black;
+  border-radius: 20px
+}
+.menu ul li a:hover {
+  background-color: darkred;
+  color: white
+}
+#slide .owl-dots {
+  position: absolute;
+  bottom: 10px;
+  left: 45%;
+}
+#slide .owl-dots .owl-dot span {
+  width: 12px;
+  height: 12px;
+}
+#slide .owl-nav {
+  position: absolute;
+  left: 0px;
+  top: 40%;
+  width: 100%;
+}
+#slide .owl-nav [class*='owl-'] {
+  font-size: 60px; /*background:rgba(255,255,255,.5);border:1px solid #fff; */ color: #fff
+}
+#slide .owl-nav .owl-next {
+  position: absolute;
+  right: 5%;
+}
+#slide .owl-nav .owl-prev {
+  position: absolute;
+  left: 5%;
+}
+#slide .owl-nav [class*='owl-']:hover {
+  background: none;
+  border: none;
+  color: darkred;
+  text-decoration: none;
+}
+main {
+  width: 100%;
+  min-height: 500px
+}
+.red-text {
+  color: red;
+}
+.content {
+  width: 70%;
+  padding: 15px;
+  min-height: 500px;
+}
+aside {
+  width: 30%;
+  padding: 15px;
+  min-height: 500px;
+}
+aside ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column
+}
+aside ul li {
+  border-bottom: 1px solid #B1181B;
+}
+aside ul li a {
+  text-decoration: none;
+  padding: 10px;
+  display: block;
+  color: #666666
+}
+aside ul li a:hover {
+  background-color: darkred;
+  color: white
+}
+footer {
+  width: 100%;
+  min-height: 200px;
+  background-color: lightcyan;
+}
+footer a {
+  text-decoration: none;
+  color: #151C9E
+}
+footer a:hover {
+  color: #191482
+}
+.blue-bg {
+  background-color: aqua;
+  text-align: center
+}
+footer ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+footer ul li a {
+  padding: 10px;
+  display: block
+}
+footer ul li a:hover {
+  color: #061352
+}
